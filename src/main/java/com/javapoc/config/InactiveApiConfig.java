@@ -12,8 +12,4 @@ public class InactiveApiConfig {
     public boolean isBlockInactiveApi() {
         return blockInactiveApi;
     }
-
-    public void setBlockInactiveApi(boolean blockInactiveApi) {
-        this.blockInactiveApi = blockInactiveApi;
-    }
 }
