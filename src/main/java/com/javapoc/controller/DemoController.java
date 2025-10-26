@@ -19,6 +19,7 @@ public class DemoController {
         System.out.println("This line should never be executed.");
         return "Inactive API — should be blocked.";
     }
+
     @GetMapping("/inactivetest2")
     @InactiveApi
     public String oldAPI() {
